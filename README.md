@@ -22,6 +22,5 @@
 
 
 ## Frontend Display
-<img width="1440" alt="image" src="https://user-images.githubusercontent.com/70275050/178124062-de6afa83-7f01-41a3-aa8d-04cc081aaf44.png">
 <img width="1432" alt="image" src="https://user-images.githubusercontent.com/70275050/178124096-af154601-d48f-49d9-958e-76a7ce28ca73.png">
 <img width="1429" alt="image" src="https://user-images.githubusercontent.com/70275050/178123821-df5b8580-2fbc-458f-baca-7c694bf7ac5e.png">
