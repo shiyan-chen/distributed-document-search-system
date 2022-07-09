@@ -39,29 +39,33 @@
                     </descriptorRefs>
                 </configuration>
             </plugin>
-
-
         </plugins>
     </build>
 
-
-
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper -->
         <dependency>
             <groupId>org.apache.zookeeper</groupId>
             <artifactId>zookeeper</artifactId>
             <version>3.7.1</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java -->
         <dependency>
             <groupId>com.google.protobuf</groupId>
             <artifactId>protobuf-java</artifactId>
             <version>3.7.1</version>
         </dependency>
 
-    </dependencies>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.35</version>
+        </dependency>
 
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.35</version>
+        </dependency>
+    </dependencies>
 
 </project>

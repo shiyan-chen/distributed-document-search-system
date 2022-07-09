@@ -188,8 +188,7 @@ public class SearchCoordinator implements OnRequestCallback {
 
     private static List<String> readDocumentsList() {
         File documentsDirectory = new File(BOOKS_DIRECTORY);
-        return Arrays.asList(documentsDirectory.list())
-                .stream()
+        return Arrays.stream(Objects.requireNonNull(documentsDirectory.list()))
                 .map(documentName -> BOOKS_DIRECTORY + "/" + documentName)
                 .collect(Collectors.toList());
     }
