@@ -1,5 +1,7 @@
 # Distributed Search System
 
+Built a dynamic, fault-tolerant, and highly scalable document search system by adopting parallel TF-IDF algorithm, Apache Zookeeper, and leader election algorithm.
+
 ## Display of Distributed System (Leader Election)
 
 1.Start server 1(left-top), server 2(right-top), server 3(left-bottom), and server 4(right-bottom) sequentially.
